@@ -1,23 +1,38 @@
-# 🚢 Análise de Dados - Titanic
+# 🚢 Pipeline de Machine Learning & Análise - Titanic
 
 ## 📌 Objetivo
-Este projeto tem como objetivo realizar uma análise dos dados do Titanic, buscando identificar padrões relacionados à sobrevivência dos passageiros.
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) e construir um pipeline preditivo de Machine Learning para prever a sobrevivência dos passageiros do Titanic
 
 ---
 
 ## 📊 Tecnologias utilizadas
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas & NumPy
+- Scikit-Learn (Modelagem e Machine Learning)
+- Matplotlib & Seaborn
 
 ---
 
 ## 📁 Estrutura do projeto
-- `script.py`: Código principal da análise
-- `data/titanic.csv`: Base de dados utilizada
-- `images`: Imagens de algumas tabelas geradas.
+```text
+titanic-data-analysis/
+│
+├── data/
+│   └── titanic.csv
+│
+├── notebooks/
+│   └── exploracao.ipynb
+│
+├── outputs/
+│
+├── src/
+│   ├── __init__.py
+│   ├── pre_processing.py
+│   └── models.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
 
 ---
 
@@ -31,13 +46,11 @@ Este projeto tem como objetivo realizar uma análise dos dados do Titanic, busca
 
 ---
 
-## 📈 Visualizações
+## 🔍 Análises e Etapas Realizadas
 
-- Gráfico de barras (countplot)
-- Histograma
-- Scatterplot
-- Boxplot
-- Gráfico de linha
+- Exploração de Dados (EDA): Identificação de distribuições de idade, tarifas, classe e gênero.
+- Engenharia de Recursos: Criação de variáveis compostas como o tamanho total da família e indicador de passageiro sozinho.
+- Modelagem Preditiva: Implementação de pipeline de classificação utilizando Scikit-Learn para prever a sobrevivência.
 
 ---
 
@@ -52,9 +65,13 @@ Este projeto tem como objetivo realizar uma análise dos dados do Titanic, busca
 ## ▶️ Como executar
 
 ```bash
-pip install pandas numpy matplotlib seaborn
-python script.py
+pip install -r requirements.txt
 ```
+
+```bash
+python main.py
+```
+
 ---
 
 ## 📌 Créditos

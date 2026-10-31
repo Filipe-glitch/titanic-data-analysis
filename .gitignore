@@ -1,3 +1,17 @@
-.spyproject/
+# Arquivos do Python e Jupyter
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Saídas geradas
+outputs/
