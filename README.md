@@ -73,7 +73,7 @@ git clone https://github.com/Filipe-glitch/titanic-data-analysis.git
 2. Acesse a pasta do projeto:
 
 ```bash
-cd Predictive_Health
+cd titanic-data-analysis
 ```
 
 3. Crie um ambiente virtual:
